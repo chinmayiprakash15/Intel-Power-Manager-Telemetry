@@ -43,20 +43,12 @@ Matplotlib/Seaborn: Python libraries for data visualization. Used to create grap
 Scikit-Learn: A Python library for machine learning. Used for implementing and training machine learning models.
 Machine Learning:
 
-Linear Regression: A machine learning algorithm used to predict future power consumption based on historical data.
 Random Forest: An ensemble learning method used for classification and regression. It helps in making more accurate predictions by combining multiple decision trees.
-XGBoost: An optimized gradient boosting algorithm. Used for more accurate and faster predictions.
-Optimization:
 
-SciPy: A Python library used for scientific and technical computing. Includes modules for optimization which can be used to fine-tune power consumption settings.
-Application Development:
+## Results
 
-Flask/Django: Python web frameworks used to create a web interface for real-time monitoring and displaying power consumption data and optimization suggestions.
-Dash/Plotly: Used to create interactive web-based dashboards to visualize data and model predictions.
-Deployment and Monitoring:
+![Alt text](img/image_filename.png)
 
-Docker: A platform for containerizing applications, making it easier to deploy and manage them in different environments.
-Prometheus/Grafana: Tools for monitoring and visualizing system performance metrics. Prometheus is used for collecting metrics, and Grafana for creating dashboards to visualize these metrics.
 
 ## Conclusion:
 This project successfully demonstrates how machine learning algorithms can be leveraged to optimize power consumption in a laptop system. By collecting detailed power usage data and analyzing it using advanced machine learning techniques, we can predict future power consumption patterns and identify inefficiencies. The implemented solution not only provides real-time monitoring and historical data analysis but also offers actionable recommendations to enhance power efficiency. This approach can be extended to other systems and devices, contributing to overall energy savings and improved performance.
