@@ -66,27 +66,33 @@ Random Forest: An ensemble learning method used for classification and regressio
 
 This chart displays the feature importance values for a machine learning model. Here's a breakdown of the chart:
 
-## Feature Importance:
+## 1.Feature Importance:
 The x-axis represents the importance of each feature, with higher values indicating greater importance.
 
-## Features:
+## 2.Features:
 The y-axis lists the features used in the model, which are:
-CPU Frequency_0(MHz)
-cpu_util_rolling_avg
+- CPU Frequency_0(MHz)
+-cpu_util_rolling_avg
 GT Power_0(Watt)
 Processor Power_0(Watt)
 CPU Utilization(%)
 
 ## Explanation of the Features:
 CPU Frequency_0(MHz): This represents the CPU frequency in MHz. It appears to be the most important feature in the model.
+
 cpu_util_rolling_avg: This is likely the rolling average of CPU utilization over a certain period. It is the second most important feature.
+
 GT Power_0(Watt): This is probably the power consumption of the graphics processing unit (GPU). It is the third most important feature.
+
 Processor Power_0(Watt): This represents the power consumption of the processor. It is the fourth most important feature.
+
 CPU Utilization(%): This is the percentage of CPU utilization. It is the least important feature among those listed.
 
 ## Insights:
 CPU Frequency_0(MHz) has the highest importance score, indicating it has the most significant impact on the model's predictions.
+
 cpu_util_rolling_avg, GT Power_0(Watt), and Processor Power_0(Watt) have similar importance scores, suggesting they are nearly equally influential in the model.
+
 CPU Utilization(%) has the lowest importance score, indicating it has the least impact on the model's predictions compared to the other features.
 
 ## Conclusion:
