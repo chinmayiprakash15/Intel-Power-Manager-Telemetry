@@ -80,20 +80,20 @@ The y-axis lists the features used in the model, which are:
 ## Explanation of the Features:
 - **CPU Frequency_0(MHz):** This represents the CPU frequency in MHz. It appears to be the most important feature in the model.
 
-cpu_util_rolling_avg: This is likely the rolling average of CPU utilization over a certain period. It is the second most important feature.
+- **cpu_util_rolling_avg:** This is likely the rolling average of CPU utilization over a certain period. It is the second most important feature.
 
-GT Power_0(Watt): This is probably the power consumption of the graphics processing unit (GPU). It is the third most important feature.
+- **GT Power_0(Watt):** This is probably the power consumption of the graphics processing unit (GPU). It is the third most important feature.
 
-Processor Power_0(Watt): This represents the power consumption of the processor. It is the fourth most important feature.
+- **Processor Power_0(Watt):** This represents the power consumption of the processor. It is the fourth most important feature.
 
-CPU Utilization(%): This is the percentage of CPU utilization. It is the least important feature among those listed.
+- **CPU Utilization(%):** This is the percentage of CPU utilization. It is the least important feature among those listed.
 
 ## Insights:
-CPU Frequency_0(MHz) has the highest importance score, indicating it has the most significant impact on the model's predictions.
+- CPU Frequency_0(MHz) has the highest importance score, indicating it has the most significant impact on the model's predictions.
 
-cpu_util_rolling_avg, GT Power_0(Watt), and Processor Power_0(Watt) have similar importance scores, suggesting they are nearly equally influential in the model.
+- cpu_util_rolling_avg, GT Power_0(Watt), and Processor Power_0(Watt) have similar importance scores, suggesting they are nearly equally influential in the model.
 
-CPU Utilization(%) has the lowest importance score, indicating it has the least impact on the model's predictions compared to the other features.
+- CPU Utilization(%) has the lowest importance score, indicating it has the least impact on the model's predictions compared to the other features.
 
 ## Conclusion:
 This project successfully demonstrates how machine learning algorithms can be leveraged to optimize power consumption in a laptop system. By collecting detailed power usage data and analyzing it using advanced machine learning techniques, we can predict future power consumption patterns and identify inefficiencies. The implemented solution not only provides real-time monitoring and historical data analysis but also offers actionable recommendations to enhance power efficiency. This approach can be extended to other systems and devices, contributing to overall energy savings and improved performance.
