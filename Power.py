@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load Intel Power Gadget data
-csv_file_path = '/content/PwrData.csv'
+csv_file_path = '/content/DataSet.csv'
 data = pd.read_csv(csv_file_path)
 
 # Display the first few rows of the data to understand its structure
