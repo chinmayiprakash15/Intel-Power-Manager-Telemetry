@@ -47,7 +47,7 @@ Random Forest: An ensemble learning method used for classification and regressio
 
 ## Results
 
-![Alt text](img/image_filename.png)
+![Confusion Matrix](img/img6.png)
 
 
 ## Conclusion:
