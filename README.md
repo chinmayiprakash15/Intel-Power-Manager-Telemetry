@@ -72,13 +72,13 @@ The x-axis represents the importance of each feature, with higher values indicat
 ## 2.Features:
 The y-axis lists the features used in the model, which are:
 - CPU Frequency_0(MHz)
--cpu_util_rolling_avg
-GT Power_0(Watt)
-Processor Power_0(Watt)
-CPU Utilization(%)
+- cpu_util_rolling_avg
+- GT Power_0(Watt)
+- Processor Power_0(Watt)
+- CPU Utilization(%)
 
 ## Explanation of the Features:
-CPU Frequency_0(MHz): This represents the CPU frequency in MHz. It appears to be the most important feature in the model.
+- **CPU Frequency_0(MHz):** This represents the CPU frequency in MHz. It appears to be the most important feature in the model.
 
 cpu_util_rolling_avg: This is likely the rolling average of CPU utilization over a certain period. It is the second most important feature.
 
