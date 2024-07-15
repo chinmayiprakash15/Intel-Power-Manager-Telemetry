@@ -1,6 +1,7 @@
 # Intel-Power-Manager-Telemetry
 ## Problem Statement
 Machine Learning Algorithms for Predictive Maintenance in Power Manager Telemetry Systems.
+
 The primary objective of this project is to optimize the power consumption of a laptop system by analyzing and predicting power usage patterns using machine learning algorithms. This involves collecting power consumption data, identifying inefficiencies, and implementing solutions to enhance overall energy efficiency.
 ## Idea Brief (Solution)
 The proposed solution is to utilize machine learning algorithms to analyze power consumption data from various components of the laptop (CPU, GPU, memory, etc.). By predicting future power usage patterns and identifying inefficiencies, we can implement strategies to optimize power consumption, such as dynamically adjusting system settings and processes based on the predicted data.
