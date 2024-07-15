@@ -43,21 +43,21 @@ Implement the optimization strategies and continuously monitor their effectivene
 
 ![Intel Power Gadget](img/img9.png)
 
-System Monitoring Tools: Additional tools and scripts (such as Python libraries like psutil) to collect system metrics like CPU load, memory usage, disk I/O, and network activity.
+**System Monitoring Tools:** Additional tools and scripts (such as Python libraries like psutil) to collect system metrics like CPU load, memory usage, disk I/O, and network activity.
 Data Preprocessing:
 
-Pandas: A powerful Python library for data manipulation and analysis. Used for cleaning and preprocessing the collected data.
+**Pandas:** A powerful Python library for data manipulation and analysis. Used for cleaning and preprocessing the collected data.
 NumPy: A library for numerical operations in Python. Used for handling arrays and performing mathematical operations.
 Data Storage:
 
-CSV Files: Simple file format used to store the collected and processed data. Easy to read and write using Python libraries.
+**CSV Files:** Simple file format used to store the collected and processed data. Easy to read and write using Python libraries.
 Data Analysis:
 
-Matplotlib/Seaborn: Python libraries for data visualization. Used to create graphs and plots to visualize the power consumption data and identify patterns.
+**Matplotlib/Seaborn:** Python libraries for data visualization. Used to create graphs and plots to visualize the power consumption data and identify patterns.
 Scikit-Learn: A Python library for machine learning. Used for implementing and training machine learning models.
 Machine Learning:
 
-Random Forest: An ensemble learning method used for classification and regression. It helps in making more accurate predictions by combining multiple decision trees.
+**Random Forest:** An ensemble learning method used for classification and regression. It helps in making more accurate predictions by combining multiple decision trees.
 
 ## Results
 
@@ -91,11 +91,11 @@ The y-axis lists the features used in the model, which are:
 - **CPU Utilization(%):** This is the percentage of CPU utilization. It is the least important feature among those listed.
 
 ## Insights:
-- CPU Frequency_0(MHz) has the highest importance score, indicating it has the most significant impact on the model's predictions.
+- **CPU Frequency_0(MHz)** has the highest importance score, indicating it has the most significant impact on the model's predictions.
 
-- cpu_util_rolling_avg, GT Power_0(Watt), and Processor Power_0(Watt) have similar importance scores, suggesting they are nearly equally influential in the model.
+- **cpu_util_rolling_avg, GT Power_0(Watt)**, and **Processor Power_0(Watt)** have similar importance scores, suggesting they are nearly equally influential in the model.
 
-- CPU Utilization(%) has the lowest importance score, indicating it has the least impact on the model's predictions compared to the other features.
+- **CPU Utilization(%)** has the lowest importance score, indicating it has the least impact on the model's predictions compared to the other features.
 
 ## Conclusion:
 This project successfully demonstrates how machine learning algorithms can be leveraged to optimize power consumption in a laptop system. By collecting detailed power usage data and analyzing it using advanced machine learning techniques, we can predict future power consumption patterns and identify inefficiencies. The implemented solution not only provides real-time monitoring and historical data analysis but also offers actionable recommendations to enhance power efficiency. This approach can be extended to other systems and devices, contributing to overall energy savings and improved performance.
