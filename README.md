@@ -39,7 +39,7 @@ Implement the optimization strategies and continuously monitor their effectivene
 
 ## Architecture Design
 
-![Design](img/iIntel.jpg)
+![Design](img/imhi.png)
 
 ## Technologies Used
 
