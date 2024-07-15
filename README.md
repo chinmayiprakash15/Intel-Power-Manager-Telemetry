@@ -29,6 +29,8 @@ Implement the optimization strategies and continuously monitor their effectivene
 ## Technologies Used
 
 Intel Power Gadget: A tool provided by Intel to measure and monitor power consumption and thermal data of Intel CPUs. It provides detailed power consumption metrics for various components of the CPU.
+![Intel Power Gadget](img/Screenshot 2024-07-15 201434.png)
+
 System Monitoring Tools: Additional tools and scripts (such as Python libraries like psutil) to collect system metrics like CPU load, memory usage, disk I/O, and network activity.
 Data Preprocessing:
 
@@ -48,6 +50,7 @@ Random Forest: An ensemble learning method used for classification and regressio
 ## Results
 
 ![Confusion Matrix](img/img6.png)
+![Feature Importance](img/img7.png)
 
 
 ## Conclusion:
