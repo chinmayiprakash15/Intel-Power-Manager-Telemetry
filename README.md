@@ -11,21 +11,30 @@ Real-time Power Monitoring: Collect and display real-time power consumption data
 Historical Data Analysis: Store and analyze historical power consumption data to identify patterns.
 
 Predictive Maintenance: Predict future power consumption and identify potential issues before they occur.
+
 Optimization Suggestions: Provide actionable recommendations to optimize power usage.
+
 Customizable Settings: Allow users to set power-saving preferences based on their usage patterns.
+
 ## Process Flow
 Data Collection:
 Use Intel Power Gadget and system monitoring tools to collect power consumption data.
+
 Data Preprocessing:
 Clean and preprocess the collected data for analysis.
+
 Data Analysis:
 Analyze historical power consumption data to identify patterns and inefficiencies.
+
 Model Training:
 Train machine learning models to predict future power consumption based on historical data.
+
 Prediction and Optimization:
 Use the trained models to predict future power usage and provide optimization suggestions.
+
 Implementation:
 Implement the optimization strategies and continuously monitor their effectiveness.
+
 ## Technologies Used
 
 Intel Power Gadget: A tool provided by Intel to measure and monitor power consumption and thermal data of Intel CPUs. It provides detailed power consumption metrics for various components of the CPU.
