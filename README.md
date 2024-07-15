@@ -7,7 +7,9 @@ The primary objective of this project is to optimize the power consumption of a 
 The proposed solution is to utilize machine learning algorithms to analyze power consumption data from various components of the laptop (CPU, GPU, memory, etc.). By predicting future power usage patterns and identifying inefficiencies, we can implement strategies to optimize power consumption, such as dynamically adjusting system settings and processes based on the predicted data.
 ## Features Offered:
 Real-time Power Monitoring: Collect and display real-time power consumption data.
+
 Historical Data Analysis: Store and analyze historical power consumption data to identify patterns.
+
 Predictive Maintenance: Predict future power consumption and identify potential issues before they occur.
 Optimization Suggestions: Provide actionable recommendations to optimize power usage.
 Customizable Settings: Allow users to set power-saving preferences based on their usage patterns.
