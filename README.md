@@ -1,4 +1,7 @@
 # Intel-Power-Manager-Telemetry
+
+Power manager telemetry refers to the collection, analysis, and reporting of data related to the power consumption and performance of electronic systems, particularly focusing on how different components within a system consume power over time. This telemetry data is crucial for understanding power usage patterns, identifying inefficiencies, and making informed decisions to optimize power consumption and improve overall energy efficiency.
+
 ## Problem Statement
 Machine Learning Algorithms for Predictive Maintenance in Power Manager Telemetry Systems.
 
