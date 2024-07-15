@@ -37,6 +37,10 @@ Use the trained models to predict future power usage and provide optimization su
 - **Implementation:**
 Implement the optimization strategies and continuously monitor their effectiveness.
 
+## Architecture Design
+
+![Design](img/iIntel.jpg)
+
 ## Technologies Used
 
 **Intel Power Gadget:** A tool provided by Intel to measure and monitor power consumption and thermal data of Intel CPUs. It provides detailed power consumption metrics for various components of the CPU.
